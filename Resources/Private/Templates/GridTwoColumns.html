@@ -1,0 +1,110 @@
+<f:switch expression="{data.flexform_columns}">
+
+    <f:case value="84">
+        <div id="c{data.uid}" class="grid-element {f:if(condition: data.flexform_nogridcontainer, then: ' ', else: 'grid-container')} grid-two-col grid-x grid-margin-x">
+            <div class="medium-8 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="medium-4 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:case>
+
+    <f:case value="48">
+        <div id="c{data.uid}" class="grid-element {f:if(condition: data.flexform_nogridcontainer, then: ' ', else: 'grid-container')} grid-two-col grid-x
+{f:if(condition: data.flexform_nomargin, then: ' ', else: 'grid-margin-x')}">
+            <div class="medium-4 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="medium-8 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:case>
+
+    <f:case value="75">
+        <div id="c{data.uid}" class="grid-element {f:if(condition: data.flexform_nogridcontainer, then: ' ', else: 'grid-container')} grid-two-col grid-x
+{f:if(condition: data.flexform_nomargin, then: ' ', else: 'grid-margin-x')}">
+            <div class="medium-7 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="medium-5 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:case>
+
+    <f:case value="57">
+        <div id="c{data.uid}" class="grid-element {f:if(condition: data.flexform_nogridcontainer, then: ' ', else: 'grid-container')} grid-two-col grid-x
+{f:if(condition: data.flexform_nomargin, then: ' ', else: 'grid-margin-x')}">
+            <div class="medium-5 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="medium-7 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:case>
+
+    <f:case value="93">
+        <div id="c{data.uid}" class="grid-element {f:if(condition: data.flexform_nogridcontainer, then: ' ', else: 'grid-container')} grid-two-col grid-x
+{f:if(condition: data.flexform_nomargin, then: ' ', else: 'grid-margin-x')}">
+            <div class="medium-9 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="medium-3 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:case>
+
+    <f:case value="39">
+        <div id="c{data.uid}" class="grid-element {f:if(condition: data.flexform_nogridcontainer, then: ' ', else: 'grid-container')} grid-two-col grid-x
+{f:if(condition: data.flexform_nomargin, then: ' ', else: 'grid-margin-x')}">
+            <div class="medium-3 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="medium-9 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:case>
+
+    <f:case value="102">
+        <div id="c{data.uid}" class="grid-element {f:if(condition: data.flexform_nogridcontainer, then: ' ', else: 'grid-container')} grid-two-col grid-x
+{f:if(condition: data.flexform_nomargin, then: ' ', else: 'grid-margin-x')}">
+            <div class="medium-10 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="medium-2 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:case>
+
+    <f:case value="210">
+        <div id="c{data.uid}" class="grid-element {f:if(condition: data.flexform_nogridcontainer, then: ' ', else: 'grid-container')} grid-two-col grid-x
+{f:if(condition: data.flexform_nomargin, then: ' ', else: 'grid-margin-x')}">
+            <div class="medium-2 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="medium-10 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:case>
+
+    <f:defaultCase>
+        <div id="c{data.uid}" class="grid-element {f:if(condition: data.flexform_nogridcontainer, then: ' ', else: 'grid-container')} grid-two-col grid-x
+{f:if(condition: data.flexform_nomargin, then: ' ', else: 'grid-margin-x')}">
+            <div class="medium-6 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="medium-6 cell">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:defaultCase>
+
+</f:switch>

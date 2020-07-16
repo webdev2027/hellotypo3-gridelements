@@ -1,0 +1,30 @@
+tx_gridelements {
+    setup {
+        GridSection {
+
+            title = LLL:EXT:hellotypo3-gridelements/Resources/Private/Language/backend.xlf:gridelements.GridSection.title
+            description = LLL:EXT:hellotypo3-gridelements/Resources/Private/Language/backend.xlf:gridelements.GridSection.description
+
+            icon = EXT:hellotypo3-gridelements/Resources/Public/Icons/BackendLayouts/Extension.png
+            frame = 3
+
+            flexformDS = FILE:EXT:hellotypo3/Configuration/FlexForms/Gridelements/GridSection.xml
+
+            config {
+                colCount = 1
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:hellotypo3-gridelements/Resources/Private/Language/backend.xlf:gridelements.GridSection.Column
+                                colPos = 1001
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
