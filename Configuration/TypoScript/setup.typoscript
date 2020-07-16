@@ -24,7 +24,7 @@ tt_content {
                     GridOneColumn {
                         cObject = FLUIDTEMPLATE
                         cObject {
-                            file = EXT:hellotypo3-gridelements/Resources/Private/Templates/GridSection.html
+                            file = EXT:hellotypo3-gridelements/Resources/Private/Templates/GridOneColumn.html
                         }
                     }
 
@@ -33,7 +33,7 @@ tt_content {
                     GridTwoColumns {
                         cObject = FLUIDTEMPLATE
                         cObject {
-                            file = EXT:hellotypo3-gridelements/Resources/Private/Templates/GridSection.html
+                            file = EXT:hellotypo3-gridelements/Resources/Private/Templates/GridTwoColumn.html
                         }
                     }
 
@@ -42,7 +42,7 @@ tt_content {
                     GridThreeColumns {
                         cObject = FLUIDTEMPLATE
                         cObject {
-                            file = EXT:hellotypo3-gridelements/Resources/Private/Templates/GridSection.html
+                            file = EXT:hellotypo3-gridelements/Resources/Private/Templates/GridThreeColumn.html
                         }
                     }
 
@@ -51,7 +51,7 @@ tt_content {
                     GridFourColumns {
                         cObject = FLUIDTEMPLATE
                         cObject {
-                            file = EXT:hellotypo3-gridelements/Resources/Private/Templates/GridSection.html
+                            file = EXT:hellotypo3-gridelements/Resources/Private/Templates/GridFourColumn.html
                         }
                     }
 
